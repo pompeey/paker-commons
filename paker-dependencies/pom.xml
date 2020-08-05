@@ -2,13 +2,13 @@
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.github.zuihou</groupId>
-    <artifactId>zuihou-dependencies</artifactId>
+    <groupId>com.github.pompeey</groupId>
+    <artifactId>paker-dependencies</artifactId>
     <version>2.4.0</version>
     <packaging>pom</packaging>
     <name>${project.artifactId}</name>
     <description>Spring Boot 2.x项目依赖管理</description>
-    <url>https://gitee.com/zuihou111/zuihou-admin-cloud</url>
+    <url>https://gitee.com/pompeey/paker-admin-cloud</url>
     <properties>
         <spring.boot.version>2.2.7.RELEASE</spring.boot.version>
         <spring.cloud.version>Hoxton.SR3</spring.cloud.version>
@@ -81,7 +81,7 @@
 
     <developers>
         <developer>
-            <id>zuihou</id>
+            <id>paker</id>
             <name>zuihou</name>
             <email>306479353@qq.com</email>
             <roles>
@@ -91,9 +91,9 @@
         </developer>
     </developers>
     <scm>
-        <connection>scm:git@github.com:zuihou/zuihou-commons.git</connection>
-        <developerConnection>scm:git@github.com:zuihou/zuihou-commons.git</developerConnection>
-        <url>git@github.com:zuihou/zuihou-commons.git</url>
+        <connection>scm:git@github.com:pompeey/paker-commons.git</connection>
+        <developerConnection>scm:git@github.com:pompeey/paker-commons.git</developerConnection>
+        <url>git@github.com:pompeey/paker-commons.git</url>
     </scm>
 
     <distributionManagement>
